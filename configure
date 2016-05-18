@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ls -l
+ls -l *
 (cd llvm; mkdir -p build; cd build; ../../llvm-translate/configure_llvm)
 (cd llvm-translate; ./configure)
 
