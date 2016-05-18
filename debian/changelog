@@ -1,3 +1,9 @@
+llvm-atomicc (16.05.2-4trusty4) trusty; urgency=medium
+
+  * tweak install rule 
+
+ -- Jamey Hicks <jamey.hicks@gmail.com>  Wed, 18 May 2016 17:47:15 -0400
+
 llvm-atomicc (16.05.2-3trusty3) trusty; urgency=medium
 
   * parallel build
