@@ -1,0 +1,12 @@
+Source: llvm-atomicc
+Section: devel
+Priority: extra
+Maintainer: Jamey Hicks <jamey.hicks@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), clang, libffi-dev, libblocksruntime-dev
+Standards-Version: 3.9.2
+Homepage: https://github.com/cambridgehackers/llvm-atomicc
+
+Package: llvm-atomicc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Atomic C compiler
