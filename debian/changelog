@@ -1,3 +1,9 @@
+llvm-atomicc (16.05.1-2trusty2) trusty; urgency=medium
+
+  * Debugging debian package build
+
+ -- Jamey Hicks <jamey.hicks@gmail.com>  Wed, 18 May 2016 11:18:11 -0400
+
 llvm-atomicc (16.05.1-1trusty1) trusty; urgency=medium
 
   * Initial release
