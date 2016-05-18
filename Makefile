@@ -1,3 +1,4 @@
+VERSION=16.05.1
 
 all:
 	+cd llvm/build; $(MAKE)
