@@ -2,7 +2,13 @@ Source: llvm-atomicc
 Section: devel
 Priority: extra
 Maintainer: Jamey Hicks <jamey.hicks@gmail.com>
-Build-Depends: debhelper (>= 8.0.0), clang, libffi-dev, libblocksruntime-dev
+Build-Depends: debhelper (>= 8.0.0), clang, libffi-dev,
+    libblocksruntime-dev, python (>= 2.7), flex, bison, dejagnu, tcl,
+    expect, cmake, perl, libtool, chrpath, texinfo, sharutils,
+    libffi-dev (>= 3.0.9), lsb-release, patchutils, diffstat,
+    xz-utils, python-dev, libedit-dev, swig, python-sphinx, ocaml-nox,
+    binutils-dev, libjsoncpp-dev, lcov, procps, help2man, dh-ocaml,
+    zlib1g-dev
 Standards-Version: 3.9.2
 Homepage: https://github.com/cambridgehackers/llvm-atomicc
 

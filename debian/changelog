@@ -1,3 +1,9 @@
+llvm-atomicc (16.05.2-2trusty2) trusty; urgency=medium
+
+  * needs python
+
+ -- Jamey Hicks <jamey.hicks@gmail.com>  Wed, 18 May 2016 15:25:56 -0400
+
 llvm-atomicc (16.05.2-1trusty1) trusty; urgency=medium
 
   * Repackaged with submodules included in orig tarball
