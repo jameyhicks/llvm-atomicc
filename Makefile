@@ -7,3 +7,13 @@ all:
 install:
 	#$(MAKE) -C llvm/build install
 	$(MAKE) -C llvm-translate install
+
+spkg:
+	git clean -fdx
+	git checkout debian
+	#sed -i s/trusty/precise/g debian/changelog
+	git buildpackage --git-upstream-branch=master --git-debian-branch=ubuntu --git-ignore-new -S -tc '--git-upstream-tag=v%(version)s'
+
+upload:
+	git push origin v$(VERSION)
+	dput ppa:jamey-hicks/connectal ../llvm-atomicc_$(VERSION)-*_source.changes
