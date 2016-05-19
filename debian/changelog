@@ -1,3 +1,9 @@
+llvm-atomicc (16.05.2-6trusty6) trusty; urgency=medium
+
+  * another attempt at fixing install prefix 
+
+ -- Jamey Hicks <jamey.hicks@gmail.com>  Thu, 19 May 2016 09:27:29 -0400
+
 llvm-atomicc (16.05.2-5trusty5) trusty; urgency=medium
 
   * fix install prefix
