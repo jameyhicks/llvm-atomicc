@@ -5,7 +5,7 @@ all:
 	+cd llvm-translate; $(MAKE)
 
 install:
-	+cd llvm-translate; $(MAKE) install
+	+cd llvm-translate; $(MAKE) PROJ_INSTALL_ROOT=$(PREFIX) install
 
 spkg:
 	git clean -fdx
